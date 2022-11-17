@@ -1,0 +1,396 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+nav{
+    display: flex;
+    justify-content:space-evenly;
+    margin: 0 auto;
+    background-color: rgb(18, 151, 153);
+    align-items: center;
+}
+
+body{
+
+    margin: 0 auto;
+    margin-left: 15px;
+    margin-right: 15px;
+    
+
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav a:hover{
+    border-radius: 10px;
+    opacity: 0.5;
+}   
+
+
+
+#logo{
+    width: 70%;
+    
+}
+
+#medica{
+    border-radius: 50%;
+    width: 30%;
+
+}
+
+section{
+    margin: 0 auto;
+}
+
+article{
+    margin: 0 auto;
+}
+
+.zap:hover{
+    opacity: 0.9;
+}
+
+.zap{
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.zapimg{
+    width: 50%;
+}
+
+.nominho{
+    font-size: 20px;
+    background-color: gray;
+    border-radius: 50px;
+    color: aliceblue;
+}
+
+h1{
+    font-size: 50px;
+    justify-content: center;
+    background-color: rgb(18, 151, 153);
+    padding: 20px;
+    border-radius: 60px;
+    color: white;
+}
+
+ul {
+    color: white;
+    list-style: none;
+    font-size: 15px;
+}
+
+footer{
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: rgb(18, 151, 153);
+    display: flex;
+    
+}
+
+.rafaela, .sobrea, .eqrafaela, .mapinha, .conteudo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: rgb(211, 211, 211);
+    border-radius: 10px;
+}
+
+.titulinhos{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.rafarticle, .sobreticle, .equicle{
+    width: 60%;
+    padding: 10px;
+    
+}
+
+.curriculo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.currexto{
+    background-color: rgb(211, 211, 211);
+    padding: 30px;
+    border-radius: 20px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+.loguinhos{
+    width: 5%;
+}
+
+p{
+    font-size: 20px;
+    
+}
+
+.logo_rodape{
+    width: 30%;
+}
+
+.logosec{
+    display: flex;
+    justify-content: center;
+}
+
+.conteudoimg{
+    width: 40%;
+}
+
+.textinhos{
+    padding: 10px;
+}
+
+#medica_home{
+
+    border-radius: 50%;
+    width: 30%;
+    
+    
+}
+
+
+
+
+@media screen and (max-width:500px){
+    nav a{
+        font-size: 20px;
+        padding: 5px;
+    }
+
+    p{
+        font-size: 10px;
+    }
+
+    .textinhos{
+        padding: 5px;
+        font-size: 15px;
+    }
+
+    h1{
+        font-size: 30px;
+        padding: 10px;
+    }
+    .zapimg{
+
+        width: 80%;
+    }
+
+    .nominho{
+        font-size: 10px;
+    }
+
+    .loguinhos{
+        width: 30px;
+    }
+
+    .mapinha{
+
+        width: 90%;
+
+    }
+    .rafaela, .sobrea, .eqrafaela, .conteudo{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: rgb(211, 211, 211);
+        border-radius: 10px;
+    }
+
+    .sobreticle, .rafarticle, .equicle{
+        width: 85%;
+        padding-left: 15px;
+    }
+
+    .conteudoimg{
+        width: 90%;
+    }
+
+    #medica{
+        width: 80%;
+    }
+
+    #medica_home{
+        width: 80%;
+    }
+
+
+}
+
+@media screen and (min-width:500px) and (max-width:1200px){
+
+    nav a{
+        font-size: 30px;
+        padding: 5px;
+    }
+
+    p{
+        font-size: 10px;
+    }
+
+    .textinhos{
+        padding: 5px;
+        font-size: 25px;
+    }
+
+    h1{
+        font-size: 40px;
+        padding: 10px;
+    }
+    .zapimg{
+
+        width: 80%;
+    }
+
+    .nominho{
+        font-size: 20px;
+    }
+
+    .loguinhos{
+        width: 30px;
+    }
+
+    .mapinha{
+
+        width: 90%;
+
+    }
+    .rafaela, .sobrea, .eqrafaela, .conteudo{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: rgb(211, 211, 211);
+        border-radius: 10px;
+    }
+
+    .sobreticle, .rafarticle, .equicle{
+        width: 85%;
+        padding-left: 15px;
+    }
+
+    .conteudoimg{
+        width: 90%;
+    }
+
+    #medica{
+        width: 80%;
+    }
+
+    #medica_home{
+        width: 80%;
+    }
+
+}
+
+@media screen and (min-width:1200px) and (max-width:2500px){
+
+    nav a{
+        font-size: 30px;
+        padding: 5px;
+    }
+
+    p{
+        font-size: 10px;
+    }
+
+    .textinhos{
+        padding: 5px;
+        font-size: 30px;
+    }
+
+    h1{
+        font-size: 40px;
+        padding: 10px;
+    }
+
+    .curriculo{
+
+        font-size: 25px;
+    }
+    .zapimg{
+
+        width: 80%;
+    }
+
+    .nominho{
+        font-size: 25px;
+    }
+
+    .loguinhos{
+        width: 30px;
+    }
+
+    .mapinha{
+
+        width: 90%;
+
+    }
+    .rafaela, .sobrea, .eqrafaela, .conteudo{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: rgb(211, 211, 211);
+        border-radius: 10px;
+    }
+
+    .sobreticle, .rafarticle, .equicle{
+        width: 85%;
+        padding-left: 15px;
+    }
+
+    .conteudoimg{
+        width: 50%;
+    }
+
+    #medica{
+        width: 40%;
+    }
+
+    #medica_home{
+        width: 40%;
+    }
+
+
+
+
+}
+
+@media (max-width:500px) and (orientation:landscape){
+
+    .conteudo{
+        font-size: 50px;
+    }
+}
